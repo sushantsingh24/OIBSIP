@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+ 
+}
+.index_body{
+  background-image: url(https://perustat.com/wp-content/uploads/2020/06/contact-background.jpg);
+  background-attachment: fixed;
+  background-size: 200vh 100vh;
+}
+header {
+  background: rgb(223, 87, 3);
+  
+
+
+}
+
+nav {
+  display: flex;
+  overflow: hidden;
+}
+
+.logo {
+
+  padding-top: 15px;
+
+  animation: rotate 5s ease-in-out infinite;
+}
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+.title{
+    border: 2px dotted red;
+    background-color: greenyellow;
+    font-size:large;
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  color: rgb(242, 250, 10);
+  font-weight: bold;
+}
+#welcome{
+  width: 100%;
+  height: 80vh;
+  
+
+
+}
+.welcome-area {
+  padding-top: 10vh;
+  height: 40vh;
+  width: 50vh;
+
+
+
+}
+.vertical_line1 , .vertical_line2{
+  position: relative;
+  height: 20vh;
+  width: 13vh;
+  left: 34vh;
+  border-radius: 40px;
+  bottom: 163px;
+}
+
+.head_img{
+  position: relative;
+  height: 20vh;
+  width: 20vh;
+  left: 10vh;
+  border-radius: 40px;
+  bottom: 50px;
+
+
+   
+}
+
+.about h1{
+  color: rgb(245, 248, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 82px;
+  padding-top: 5px;
+}
+
+.about h2 {
+  color: rgb(245, 248, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+
+}
+
+.about h3 {
+  color: rgb(245, 248, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.body {
+  background-color: rgb(6, 66, 40);
+  color:aliceblue;
+  font-size: larger;
+  width: 50%;
+ 
+}
+.abouts h1{
+    padding-top: 55px;
+    color: aliceblue;
+    
+    width: 100vh;
+  
+
+}
+.abouts{
+  color: aliceblue;
+  padding-left: 140px;
+  width: 100vh;
+  padding-top: 40px;
+}
+.ref{
+  color: rgb(245, 248, 81);
+  margin-top: 60px;
+  margin-left: 140px;
+}
+.references{
+  list-style: None;
+  
+}
+.references a{
+  color:white;
+  font-size: 20px;
+  
+}
+.abouts p{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+#welcome .welcome-area{
+width: 50%;
+height: 8rem;
+float: left;
+
+}
+
+.page_div{
+  width: 100%;
+  height: 100%
+}
+
+.page_div #welcome .pic{
+
+  width: 50%;
+  float: left;
+}
+.pic{
+  width: 100%;
+  height: 100%;
+
+}
+#welcome{
+  width: 100%;
+  height:100%;
+}
+.pic img{
+  width: 45%;
+  height:280%;
+  border-radius: 100vh;
+  margin-top: 110px;
+  margin-left: 200px;
+}
+.profile{
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: x-large;
+
+  
+}
+footer {
+  padding-top: 3vh;
+  height: 10%;
+  width: 100%;
+  color: rgb(40, 242, 208);
+}
+
+.table-registration {
+  display: flex;
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  height: 15vh;
+  width:112%;
+  height: 220px;
+  padding-bottom: 25px;
+  font-size:30px;
+  justify-content: center;
+  align-items: center;
+}
+.reg{
+  padding: 100px;
+
+}
+.registration{
+  background-image: url(https://wallpapercave.com/wp/wp2939867.png);
+  background-size:200vh 105vh ;
+}
+.login_s{
+  background-image: url(https://wallpapercave.com/wp/wp2939867.png);
+  background-size:200vh 110vh ;
+}
+.table-login{
+  display: flex;
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  height: 40vh;
+  width:100%;
+  font-size:40px;
+  justify-content: center;
+  align-items: center;
+  }
+  .table-registration{  
+    display: flex;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    height: 40vh;
+    width:112%;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .table-login input,.table-registration input{
+      height: 32px;
+      border-radius:  5px 5px 5px 5px;
+  }
+.center{
+
+  padding-top: 13.5%;
+  padding-bottom: 5%;
+  padding-left: 32%;
+  padding-right: 27%;
+
+}
+.reg_center{
+  padding-top: 5.5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+  padding-right: 31%; 
+}
+.forget-p{
+  color: rgb(9, 16, 1);
+  background: burlywood;
+
+}
+.all_achivement{
+  width: 100%;
+  height: 100%;
+  
+}
+.achivement_certificate{
+  width: 100%;
+
+}
+.achivement{
+  color: rgb(236, 245, 245);
+ text-align: center;
+ padding-top: 50px;
+}
+.achive_pic{
+  
+  width: 100%;
+  height: 100%;
+  padding-top: 403px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://png.pngtree.com/png-vector/20190303/ourlarge/pngtree-achievement-word-business-in-light-bulb-png-image_720683.jpg);
+
+
+}
+.all_achivement .achivement_certificate,.achive_pic{
+  width: 50%;
+  float: left;
+
+}
+.achivement h1{
+    color: rgb(56, 244, 203);
+    text-decoration: underline;
+    
+}.achivement h2{
+  color: rgb(140, 250, 37);
+  text-decoration: underline;
+  padding-top: 32px;
+}
+.achivement h3{
+  padding-top: 45px;
+  color: rgb(236, 247, 118);
+}
+.achivement p{
+  font-size: x-large;
+}
+.achivement{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.s-Iy0IHTdx6rYEyt7l9ybgHaE8&pid=Api&P=0);
+  background-size: 100vh 100vh;
+}
+.certificate{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.9OmWDyNJTz-er8J2yyuSZQAAAA&pid=Api&P=0);
+  background-attachment: fixed;
+  background-size: 100vh 0vh;
+  color: rgb(232, 251, 85);
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 46px 64px 525px;
+}
+.certificate img{
+    padding-bottom: 105px;
+    margin-left: 431px;
+
+}
+.certificate h3{
+  color: rgb(135, 242, 29);
+  padding-top: 15px;
+  font-size: x-large;
+  text-decoration-line:initial;
+  border: 2px solid;
+  border-radius: 15px;
+
+}
+.certificate a:hover{
+ 
+color: rgb(216, 233, 85);
+font-weight: bold;
+font-size: x-large;
+   
+}

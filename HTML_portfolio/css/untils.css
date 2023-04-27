@@ -1,0 +1,548 @@
+.all-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_else{
+  background-color: rgb(13, 13, 13);
+}
+.submit{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    
+    
+}
+
+ .sub {
+    color: aqua;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    background-color:green;
+    font-size:3vh ;
+    text-decoration: none;
+    
+    
+  }
+  .can{ 
+    color: aqua;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    background-color: rgb(23, 22, 22);
+    font-size:3vh ;
+    text-decoration: none;
+    
+  }
+  .log {
+    color: aqua;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    background-color:rgb(228, 18, 189);
+    font-size:3vh;
+    text-decoration: none;
+  }
+ .details{
+ background-image:url(https://media.istockphoto.com/photos/contact-us-email-phone-message-contact-communication-web-landing-page-picture-id884374384?k=6&m=884374384&s=612x612&w=0&h=T_dnqUOtqb7UVBJ0n8dU1enYKFuWmvkcsLS0JFgMR-w=);
+ background-attachment: fixed;
+ background-size: 150vh 100vh;
+ width: 100%;
+ height: 100vh;
+ font-size: 50px;
+ font-weight: 500;
+ color: aqua;
+ text-align: center;
+ padding-top: 50px;
+ }
+ .contact{
+  border: 10px solid #2cf7cd;
+  margin: 66px;
+  padding: 40px;
+  margin-left: 294px;
+  margin-right: 279px;
+  margin-top: 148px;
+}
+ 
+ .details a:hover{
+  color: rgb(216, 233, 85);
+  font-weight: bold;
+  font-size: xx-large;
+ }
+ @media screen and (max-width: 1115px){
+  nav li{
+    display: none;
+   }
+  
+  #welcome .welcome-area{
+    width: 100%;
+    height: 0%;
+    }
+  
+    .pic{
+      width: 100%;
+      height: 100%;
+    
+    }
+  
+      .abouts {
+        color: aliceblue;
+        padding-left: 194px;
+        width: 137vh;
+        padding-top: 0px;
+       
+    }
+    
+  
+  .about h1 {
+    color: rgb(245, 248, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+  }
+  .vertical_line1, .vertical_line2 {
+    position: relative;
+    height: 22vh;
+    width: 13vh;
+    left: 73.5vh;
+    border-radius: 40px;
+    bottom: 127px;}
+    .head_img {
+      position: relative;
+      height: 21vh;
+      width: 20vh;
+      left: 50vh;
+      border-radius: 14px;
+      bottom: 50px;
+  }
+
+.page_div #welcome .pic{
+
+  width: 100%;
+}
+    
+  .pic img{
+      width: 50%;
+      height:150%;
+      border-radius: 120vh;
+    }
+    .profile{
+      color:white;
+      text-align: center;
+      padding-top: 20px;
+      font-size: large;
+    
+      
+    }
+    .all_achivement .achivement_certificate,.achive_pic{
+      width: 100%;
+    
+    }
+    .achivement{
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.s-Iy0IHTdx6rYEyt7l9ybgHaE8&pid=Api&P=0);
+      background-size: 100vh 100vh;
+    }
+    .certificate{
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.9OmWDyNJTz-er8J2yyuSZQAAAA&pid=Api&P=0);
+      background-attachment: fixed;
+      background-size: 100vh 0vh;
+      color: rgb(232, 251, 85);
+      text-align: center;
+      text-decoration-line: underline;
+      margin: 46px 64px 525px;
+    }
+    .certificate img{
+      display: None;
+    
+    }
+    .certificate h3{
+      color: rgb(135, 242, 29);
+      padding-top: 15px;
+      font-size: x-large;
+      text-decoration-line:initial;
+      border: 2px solid;
+      border-radius: 15px;
+    
+    }
+    .certificate a:hover{
+     
+    color: rgb(216, 233, 85);
+    font-weight: bold;
+    font-size: x-large;
+       
+    }
+    .contact {
+      border: 10px solid #2cf7cd;
+      margin: 38px;
+      padding: 0px;
+      margin-left: 69px;
+      margin-right: 57px;
+      margin-top: 60px;
+  }
+      .table-registration {
+        display: flex;
+        border: 0.5px solid black;
+        border-collapse: collapse;
+        height: 57vh;
+        width: 149%;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .reg_center {
+      padding-top: 0.5%;
+      padding-bottom: 0%;
+      padding-left: 18%;
+      padding-right: 32%;
+  }
+     .center {
+      padding-top: 12.5%;
+      padding-bottom: 30%;
+      padding-left: 4%;
+      padding-right: 3%;
+  }
+  footer {
+    padding-top: 2vh;
+    font-size: 12px;
+    height: 10%;
+    width: 100%;
+    color: rgb(40, 242, 208);
+  }
+      }
+
+
+@media screen and (max-width :735px) {
+  nav li{
+    display: none;
+   }
+  
+
+  
+
+  .pic{
+    width: 100%;
+    height: 100%;
+  
+  }
+  .abouts {
+    color: aliceblue;
+    padding-left: 194px;
+    width: 137vh;
+    padding-top: 0px;
+}
+  .abouts p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }
+  .abouts h1 {
+      padding-top: 20px;
+      color: aliceblue;
+      width: 77vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.about h1 {
+  color: rgb(245, 248, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 82px;
+}
+.vertical_line1, .vertical_line2 {
+  position: relative;
+  height: 22vh;
+  width: 13vh;
+  left: 45%;
+  border-radius: 40px;
+  bottom: 113px;}
+  .head_img {
+  position: relative;
+    height: 21vh;
+    width: 20vh;
+    left: 5vh;
+    border-radius: 14px;
+    bottom: 11px;
+}
+
+.page_div #welcome .pic{
+
+width: 100%;
+}
+  
+.pic img{
+    width: 50%;
+    height:150%;
+    border-radius: 120vh;
+  }
+  .profile{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+  
+    
+  }
+  .all_achivement .achivement_certificate,.achive_pic{
+    width: 100%;
+  
+  }
+  .achivement{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.s-Iy0IHTdx6rYEyt7l9ybgHaE8&pid=Api&P=0);
+    background-size: 100vh 100vh;
+  }
+  .certificate{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.9OmWDyNJTz-er8J2yyuSZQAAAA&pid=Api&P=0);
+    background-attachment: fixed;
+    background-size: 100vh 0vh;
+    color: rgb(232, 251, 85);
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 46px 64px 525px;
+  }
+  .certificate img{
+    display: None;
+  
+  }
+  .certificate h3{
+    color: rgb(135, 242, 29);
+    padding-top: 15px;
+    font-size: x-large;
+    text-decoration-line:initial;
+    border: 2px solid;
+    border-radius: 15px;
+  
+  }
+  .certificate a:hover{
+   
+  color: rgb(216, 233, 85);
+  font-weight: bold;
+  font-size: x-large;
+     
+  }
+  .contact {
+    border: 10px solid #2cf7cd;
+    margin: 66px;
+    padding: 40px;
+    margin-left: 61px;
+    margin-right: 71px;
+    margin-top: 148px;
+  }
+    .details {
+      background-image: url(https://media.istockphoto.com/photos/contact-us-email-phone-message-contact-communication-web-landing-page-picture-id884374384?k=6&m=884374384&s=612x612&w=0&h=T_dnqUOtqb7UVBJ0n8dU1enYKFuWmvkcsLS0JFgMR-w=);
+      background-attachment: fixed;
+      background-size: 150vh 100vh;
+      width: 100%;
+      height: 144vh;
+      font-size: 50px;
+      font-weight: 500;
+      color: aqua;
+      text-align: center;
+      padding-top: 1px;
+    }
+    .center {
+      padding-top: 12.5%;
+      padding-bottom: 30%;
+      padding-left: 4%;
+      padding-right: 3%;
+  }
+  footer {
+    padding-top: 2vh;
+    font-size: 12px;
+    height: 10%;
+    width: 100%;
+    color: rgb(40, 242, 208);
+  }
+}
+@media screen and (max-width :693px) {
+    
+   nav li{
+    display: none;
+   }
+  .pic{
+    width: 122%;
+    height: 100%;
+  
+  }
+  .abouts {
+    color: aliceblue;
+    padding-left: 13px;
+    width: 84vh;
+    padding-top: 0px;
+}
+  .abouts p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }
+  .abouts h1 {
+      padding-top: 20px;
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 4vh;
+  }
+.about h1 {
+  color: rgb(245, 248, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 82px;
+ 
+}
+.vertical_line1, .vertical_line2 {
+  position: relative;
+  height: 14vh;
+  width: 10vh;
+  left: 29%;
+  border-radius: 40px;
+  bottom: 105px;}
+  .head_img {
+    position: absolute;
+    top: 15vh;
+    left: 36%;
+    height: 14vh;
+    width: 14vh;
+}
+
+.page_div #welcome .pic{
+
+width: 100%;
+}
+  
+.welcome-area,.abouts h1, .abouts{
+  width: 100%;
+
+
+} 
+.ref {
+  color: rgb(245, 248, 81);
+  display: inline;
+  
+}
+
+.pic img{
+    width: 50%;
+    height:150%;
+    border-radius: 120vh;
+    margin-top: 38px;
+    margin-left: 107px;
+  }
+  .profile{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+  
+    
+  }
+  
+.all_achivement .achivement_certificate,.achive_pic{
+  width: 100%;
+
+}
+.achivement{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.s-Iy0IHTdx6rYEyt7l9ybgHaE8&pid=Api&P=0);
+  background-size: 100vh 100vh;
+}
+.certificate{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.9OmWDyNJTz-er8J2yyuSZQAAAA&pid=Api&P=0);
+  background-attachment: fixed;
+  background-size: 100vh 0vh;
+  color: rgb(232, 251, 85);
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 46px 64px 525px;
+}
+.certificate img{
+  display: None;
+
+}
+.certificate h3{
+  color: rgb(135, 242, 29);
+  padding-top: 15px;
+  font-size: x-large;
+  text-decoration-line:initial;
+  border: 2px solid;
+  border-radius: 15px;
+
+}
+.certificate a:hover{
+
+color: rgb(216, 233, 85);
+font-weight: bold;
+font-size: x-large;
+   
+}
+
+.contact {
+    border: -3px solid #2cf7cd;
+    margin: 102px;
+    padding: 29px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 148px;
+}
+.table-login {
+  display: flex;
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  height: 40vh;
+  width: 100%;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  padding-top: 27.5%;
+  padding-bottom: 24%;
+  padding-left: 4%;
+  padding-right: 3%;
+}
+.table-registration {
+  padding-left: 10px;
+  display: flex;
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  height: 84vh;
+  width: 140%;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 387px;
+  padding-top: 0px;
+}
+
+.reg_center {
+  padding-top: 0.5%;
+  padding-bottom: 0%;
+  padding-left: 12%;
+  padding-right: 33%;
+}
+.reg {
+  padding: 12px;
+}
+footer {
+  padding-top: 2vh;
+  font-size: 12px;
+  height: 10%;
+  width: 100%;
+  color: rgb(40, 242, 208);
+}
+
+
+}
